@@ -8,7 +8,7 @@ def main(data:str):
     """
 
     # Read data from file
-    f=open(data)
+    f=open('txt_file\data01.txt')
     txt=f.read()
     list=txt.split(',')
     
