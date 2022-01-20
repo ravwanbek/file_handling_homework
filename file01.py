@@ -12,4 +12,4 @@ def main(data:str):
     txt=f.read()
     list=txt.split()
     return list
-print(main('1,2,3,4,5,6,7'))
+print(main(open('txt_file\data01.txt')))
