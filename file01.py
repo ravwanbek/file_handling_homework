@@ -8,8 +8,8 @@ def main(data:str):
     """
 
     # Read data from file
-    f=open('txt_file\data01.txt')
+    f=open(data)
     txt=f.read()
     list=txt.split()
     return list
-print(main(open('txt_file\data01.txt')))
+print(main('txt_file\data01.txt'))
