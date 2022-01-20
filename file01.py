@@ -10,5 +10,5 @@ def main(data:str):
     # Read data from file
     f=open('txt_file\data01.txt')
     txt=f.read()
-    
-    return txt
+    list=txt.split()
+    return list
