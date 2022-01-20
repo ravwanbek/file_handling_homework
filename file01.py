@@ -10,6 +10,7 @@ def main(data:str):
     # Read data from file
     f=open(data)
     txt=f.read()
-    list=txt.split()
+    list=txt.split(',')
+    
     return list
 print(main('txt_file\data01.txt'))
