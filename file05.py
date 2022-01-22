@@ -23,6 +23,3 @@ def main(data:str):
     return list
 
 # Read data from file
-f=open('txt_file\data05.txt')
-txt=f.read()
-print(main(txt))
