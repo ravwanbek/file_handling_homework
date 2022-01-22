@@ -15,5 +15,3 @@ def main(data:str):
     
     return min
 # Read data from file
-f=open('txt_file\data09.txt').read()
-print(main(f))
