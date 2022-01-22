@@ -10,9 +10,6 @@ def main(data:str):
     for a in data.split(','):
         list.append(int(a))
 
-    
-    
-
     return list
     
 
@@ -20,6 +17,4 @@ def main(data:str):
     # Read data from file
     
     
-f=open('txt_file\data01.txt')
-txt=f.read()
-print(main(txt))
+
