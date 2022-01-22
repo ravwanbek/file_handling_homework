@@ -15,5 +15,3 @@ def main(data:str):
 
     return list1
 # Read data from file
-f=open('txt_file\data06.txt').read()
-print(main(f))
