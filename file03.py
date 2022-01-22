@@ -6,7 +6,10 @@ def main(data:str):
     Returns:
         list: return answer
     """
-    a=list(data)
-    return a
+    list=[]
+    for x in data:
+        if x.isdigit():
+            list.append(x)
+    return list
 
 # Read data from file
