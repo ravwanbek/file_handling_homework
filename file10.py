@@ -19,5 +19,3 @@ def main(data:str):
 
     return largest
 # Read data from file
-f=open('txt_file\data10.txt').read()
-print(main(f))
