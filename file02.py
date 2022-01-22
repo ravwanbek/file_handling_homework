@@ -10,6 +10,3 @@ def main(data:str):
     return a
 
 # Read data from file
-f=open('txt_file\data02.txt')
-txt=f.read()
-print(main(txt))
