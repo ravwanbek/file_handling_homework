@@ -6,5 +6,11 @@ def main(data:str):
     Returns:
         int: return answer
     """
-    
+    list=[]
+    n=0
+    for x in data:
+        if x.isnumeric():
+            n+=int(x)
+            list.append(n)
+    return n
 # Read data from file
