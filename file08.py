@@ -6,5 +6,18 @@ def main(data:str):
     Returns:
         int: return answer
     """
+    
+    max=0
+    for x in data:
+        if x.isnumeric():
+            if int(x)>int(max):
+                max=x
+
+    
+    return max
 
 # Read data from file
+
+
+
+
