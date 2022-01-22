@@ -6,5 +6,7 @@ def main(data:str):
     Returns:
         list: return answer
     """
-    
+    a=list(data)
+    return a
+
 # Read data from file
