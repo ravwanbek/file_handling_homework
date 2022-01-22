@@ -14,7 +14,7 @@ def main(data:str):
                 max=x
 
     
-    return max
+    return int(max)
 
 # Read data from file
 
