@@ -6,5 +6,18 @@ def main(data:str):
     Returns:
         int: return answer
     """
+    list1=[]
+    largest=0
+    row=data.split('\n')
+    for i in row:
+        list1.append(len(i))
+    print(list1)
+    for j in list1:
+        if j>largest:
+            largest=j
 
+
+    return largest
 # Read data from file
+f=open('txt_file\data10.txt').read()
+print(main(f))
